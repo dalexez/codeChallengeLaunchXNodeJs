@@ -6,4 +6,9 @@ describe('Unit Tests for StudentController Class', () => {
         
         expect(students.length).toBe(25);
     })
+    test('2) Test for getStudentsByCertication', () => {
+        const students = StudentController.getStudentsByCertification(true)
+        
+        expect(students.length).toBe(10);
+    })
 })
