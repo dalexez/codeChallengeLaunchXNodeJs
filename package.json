@@ -4,8 +4,11 @@
   "description": "Proyecto desarrollado para la mission Backend JS de Launch X",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
   },
   "author": "Daniel Espinoza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.0.0"
+  }
 }
