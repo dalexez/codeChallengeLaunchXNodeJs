@@ -1,0 +1,11 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado para la mission Backend JS de Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Espinoza",
+  "license": "ISC"
+}
