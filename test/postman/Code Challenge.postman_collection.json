@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "756b4eb6-1356-412d-b083-8962e450c1a7",
+		"name": "Code Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consultar todos los students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/students",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta de emails de alumnos con certificacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/students/email/certification",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"students",
+						"email",
+						"certification"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta de estudiantes con mas de 500 creditos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/students/credits/moreThan/:credits",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"students",
+						"credits",
+						"moreThan",
+						":credits"
+					],
+					"variable": [
+						{
+							"key": "credits",
+							"value": "500"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
